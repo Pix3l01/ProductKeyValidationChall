@@ -21,7 +21,7 @@ In the fourth and fifth parts, the data are encoded in base24 using this custom 
 it must be an integer of three digits none of which can be repeated. Furthermore the numbers `123`, `456` and `789` are forbidden as well and the number can't start with a zero.
 
 * __Second part:__ 
-it must be an integer of seven digits divisible by 7. Furthermore, the number must have at least 6 different digits.
+it must be an integer of seven digits and the sum of all its digits must be divisible by 7. Furthermore, the number must have at least 6 different digits.
 
 * __Third part:__
 it must be either one of these 3 letters strings: `"ptm", "ctf", "plt"`
